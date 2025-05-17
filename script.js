@@ -1,9 +1,8 @@
 (async () => {
-    // https://backpack.tf/premium/search?item=Beggars Bazooka
-    let search_url_queries = []
+    let search_url_queries = [ '/* backpack.tf premium url */' ]
 
-    const item_name = 'Jarate'
-    const pages = 28
+    const item_name = '/* file name */'
+    const pages = 667
 
     for (let search_url_query of search_url_queries) {
         const item_data = []
